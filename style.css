@@ -1,0 +1,312 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  box-sizing: border-box;
+}
+html,
+body {
+  width: 100%;
+  height: 100%;
+}
+/* Header Part Done */
+#main {
+  width: 100%;
+  height: 100%;
+}
+#navbar {
+  width: 85%;
+  height: 10vh;
+  display: flex;
+  align-items: center;
+  border-radius: 15px;
+  padding: 1vw;
+  justify-content: space-between;
+  margin: 0 auto;
+}
+.navleft p {
+  margin: 10px;
+  font-size: 1.7vw;
+  font-weight: bold;
+  text-transform: capitalize;
+}
+.navleft p span {
+  color: #6c55f9;
+}
+
+.navright ul li {
+  display: inline-block;
+  margin-right: 5px;
+  font-size: 1.2vw;
+  color: rgba(100, 95, 136, 0.75);
+  transition: all 0.2s ease;
+  cursor: pointer;
+}
+.navright ul li:hover {
+  color: rgb(100, 95, 136);
+}
+.navright ul button {
+  margin-right: 2vw;
+  padding: 0.8vw 1.35vw;
+  border-radius: 5px;
+  border: none;
+  font-size: 1.1vw;
+  background-color: #6c55f9;
+  color: #fff;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+.navright ul button:hover {
+  background-color: rgb(100, 95, 136);
+}
+/* [Hero Part] Header */
+
+.hero {
+  width: 80%;
+  min-height: 80vh;
+  padding: 1vw 2vw;
+  border-radius: 30px;
+  margin: 2vw auto;
+  background-color: #f6f5fc;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.heroleft {
+  width: 60%;
+  text-align: justify;
+  padding-left: 8%;
+  margin: auto;
+}
+.heroleft h1 {
+  text-align: left;
+  font-size: 2.5vw;
+  font-weight: 500;
+  color: #645f88;
+  margin-bottom: 1.5vw;
+  width: 80%;
+}
+.heroleft p {
+  font-size: 1.1vw;
+  color: #8e8aad;
+  font-weight: 600;
+  padding-right: 20%;
+  line-height: 1.6vw;
+  margin-bottom: 1.2vw;
+}
+.heroleft button {
+  margin: 3vw 0 1vw 0;
+  font-size: 1.1vw;
+  padding: 0.8vw 1.2vw;
+  color: white;
+  font-weight: 600;
+  border: none;
+  border-radius: 50px;
+  background-color: #6c55f9;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+.heroleft button:hover {
+  background-color: rgb(100, 95, 136);
+}
+
+.heroright {
+  width: 40%;
+  /* background-color: navajowhite; */
+  text-align: center;
+}
+.heroright img {
+  width: 100%;
+}
+
+/* Services Card Section Starts */
+
+.servicecards {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 90%;
+  flex-wrap: wrap;
+  margin: 2vw auto;
+  height: 70%;
+}
+.card {
+  text-align: center;
+  width: 300px;
+  background-color: #fff;
+  padding: 4vw 2vw;
+  box-shadow: 0 3px 12px rgba(95, 92, 120, 0.12);
+}
+.card img {
+  width: 80px;
+  margin-bottom: 1.2vw;
+}
+.card h2 {
+  font-size: 1.4vw;
+  margin-bottom: 20px;
+  font-weight: 500;
+  color: #645f88;
+}
+.card p {
+  font-size: 1em;
+  margin: auto;
+  width: 90%;
+  margin-bottom: 15px;
+  color: #898798;
+}
+.card button {
+  padding: 0.8vw 1.35vw;
+  border-radius: 5px;
+  border: none;
+  font-size: 1.1vw;
+  background-color: #6c55f9;
+  color: #fff;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+.card button:hover {
+  background-color: rgb(100, 95, 136);
+}
+/* Cards Done */
+
+/* About Part Starts */
+
+.about {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+
+  width: 90%;
+  height: 90%;
+  margin: 2vw auto;
+}
+.aboutleft {
+  width: 50%;
+  height: 100%;
+  padding: 4vw 3vw;
+}
+.aboutleft h3 {
+  color: #898798;
+  font-weight: 500;
+  font-size: 1em;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  margin-bottom: 2vw;
+}
+.aboutleft h2 {
+  color: #645f88;
+  font-size: 2.2vw;
+  margin-bottom: 2vw;
+}
+.aboutleft hr {
+  border-radius: 5px;
+  border: 2px solid #6c55f9;
+  width: 5%;
+  margin-bottom: 2vw;
+}
+.aboutleft p {
+  width: 90%;
+  font-size: 0.95em;
+  margin-bottom: 2vw;
+  color: #898798;
+}
+
+.aboutleft button {
+  padding: 0.8vw 1.35vw;
+  border-radius: 5px;
+  border: none;
+  font-size: 1.1vw;
+  background-color: #6c55f9;
+  margin: 4vw 0;
+  color: #fff;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+.aboutleft button:hover {
+  background-color: rgb(100, 95, 136);
+}
+
+.aboutright {
+  width: 50%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+/* About Part Done */
+
+/* Our Services Part Starts */
+
+.ourServices {
+  width: 100%;
+  padding: 5vw 3.5vw;
+  background-color: #f6f5fc;
+}
+.ourServices > h3 {
+  text-align: center;
+  font-weight: 500;
+  font-size: 1.5vw;
+  color: #898798;
+  letter-spacing: 3px;
+  margin-bottom: 10px;
+}
+.ourServices h2 {
+  text-align: center;
+  font-size: 2.3vw;
+  font-weight: 500;
+  color: #645f88;
+  margin: 1.5vw 0;
+}
+.ourServices hr {
+  width: 3%;
+  margin: 2vw auto;
+  border-radius: 5px;
+  border: 2px solid #6c55f9;
+}
+.cardDiv {
+  width: 90%;
+  margin: 10px auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.serviceCard {
+  width: 250px;
+  text-align: center;
+}
+.serviceCard img {
+  width: 50px;
+  box-shadow: 0 3px 12px rgba(95, 92, 120, 0.12);
+  border-radius: 50px;
+  margin: 10px auto;
+}
+.serviceCard h3 {
+  font-size: 1.1em;
+  color: #2d2b3a;
+  font-weight: 500;
+}
+.serviceCard p {
+  font-size: 0.8em;
+  margin: 10px 0;
+  color: #898798;
+}
+
+/* <!-- Our Services Part Ends --> */
+
+/* <!-- Email Part Starts --> */
+
+.emailUs {
+  width: 100%;
+  height: 40%;
+  background-image: url(./Images/bg_pattern.svg);
+  background-position: center;
+  background-color: #5439f8;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.emailUs > h3 {
+  display: block;
+}
